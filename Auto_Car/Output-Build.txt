@@ -1,0 +1,23 @@
+﻿------ Build started: Project: Autonomous_Car, Configuration: Debug AVR ------
+Build started.
+Project "Autonomous_Car.cproj" (default targets):
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "CoreBuild" in file "D:\7.0\Vs\Compiler.targets" from project "D:\Final_Project\APP\AutonomousCar\Autonomous_Car\Autonomous_Car\Autonomous_Car.cproj" (target "Build" depends on it):
+	Task "RunCompilerTask"
+		Shell Utils Path D:\7.0\shellUtils
+		D:\7.0\shellUtils\make.exe all --jobs 8 --output-sync 
+		make: Nothing to be done for 'all'.
+	Done executing task "RunCompilerTask".
+	Task "RunOutputFileVerifyTask"
+				Program Memory Usage 	:	5560 bytes   17.0 % Full
+				Data Memory Usage 		:	92 bytes   4.5 % Full
+				Warning: Memory Usage estimation may not be accurate if there are sections other than .text sections in ELF file
+	Done executing task "RunOutputFileVerifyTask".
+Done building target "CoreBuild" in project "Autonomous_Car.cproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '') was evaluated as ('' != '').
+Target "Build" in file "D:\7.0\Vs\Avr.common.targets" from project "D:\Final_Project\APP\AutonomousCar\Autonomous_Car\Autonomous_Car\Autonomous_Car.cproj" (entry point):
+Done building target "Build" in project "Autonomous_Car.cproj".
+Done building project "Autonomous_Car.cproj".
+
+Build succeeded.
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
